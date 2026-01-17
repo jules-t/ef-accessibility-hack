@@ -16,9 +16,8 @@ class Settings(BaseSettings):
     livekit_api_key: str = ""
     livekit_api_secret: str = ""
 
-    # OpenRouter API
-    openrouter_api_key: str = ""
-    openrouter_base_url: str = "https://openrouter.ai/api/v1"
+    # Google Gemini API
+    google_api_key: str = ""
 
     # ElevenLabs API
     elevenlabs_api_key: str = ""
